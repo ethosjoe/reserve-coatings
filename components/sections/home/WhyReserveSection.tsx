@@ -8,7 +8,7 @@ import { IMAGES } from "@/lib/images";
 import { HOME_COPY, CTAS } from "@/lib/copy";
 
 const checklist = [
-  "W-2 employee crews — never subcontracted",
+  "In-house installation crews — never subcontracted",
   "Transferable lifetime residential warranty",
   "One-day installation, walk on it the next morning",
   "Free on-site color sampling before you commit",
@@ -51,7 +51,7 @@ export function WhyReserveSection() {
             eyebrow={c.eyebrow}
             eyebrowVariant="accent"
             title={c.headline}
-            subtitle="No subcontractors. No pressure. No surprise revisions on install day — every job is scoped from your photos and a walk-through, then installed by a W-2 Reserve crew."
+            subtitle="No subcontractors. No pressure. No surprise revisions on install day — every job is scoped from your photos and a walk-through, then installed by an in-house Reserve crew."
             dark
             size="lg"
           />

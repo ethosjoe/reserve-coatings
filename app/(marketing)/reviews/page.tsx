@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { PageTitleBar } from "@/components/layout/PageTitleBar";
+import { TRUST_STATS } from "@/lib/brand";
 import { PAGE_INTROS } from "@/lib/copy";
 import { reviews } from "@/data/reviews";
 import { cn } from "@/lib/utils";
@@ -23,7 +24,7 @@ export default function ReviewsPage() {
       <section className="bg-bone py-16">
         <div className="mx-auto max-w-content px-6">
           <h2 className="font-display text-4xl font-light text-obsidian">
-            4.9 stars across 100+ installs.
+            {TRUST_STATS.googleRating} stars across {TRUST_STATS.installCount}+ installs.
           </h2>
           <div className="mt-8 flex flex-wrap gap-2">
             {filters.map((f) => (

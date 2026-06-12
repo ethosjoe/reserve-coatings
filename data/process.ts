@@ -20,7 +20,7 @@ export const processMetrics = [
   { value: "6", label: "Prep & coating stages" },
   { value: "1", label: "Disciplined install day" },
   { value: "24h", label: "Light foot traffic" },
-  { value: "100%", label: "W-2 Reserve crews" },
+  { value: "100%", label: "In-house Reserve crews" },
 ] as const;
 
 export const processJourney = [
@@ -179,7 +179,7 @@ export const processStandards = {
     "Surprise price changes on install day",
   ],
   always: [
-    "W-2 Reserve installers on every job",
+    "In-house Reserve installers on every job",
     "Written scope from walk-through notes",
     "Manufacturer-compliant spread rates",
     "Transferable lifetime warranty (residential)",

@@ -2,10 +2,11 @@
 
 import { RevealSection } from "@/components/motion/RevealSection";
 import { Card } from "@/components/ui/card";
+import { TRUST_STATS } from "@/lib/brand";
 
 export function TrustStrip() {
   const items = [
-    { label: "4.9", detail: "Google" },
+    { label: String(TRUST_STATS.googleRating), detail: "Google" },
     { label: "BBB", detail: "A+ Rated" },
     { label: "Lifetime", detail: "Warranty" },
     { label: "USA", detail: "Materials" },

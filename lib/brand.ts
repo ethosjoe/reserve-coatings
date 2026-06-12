@@ -42,6 +42,11 @@ export const NAV_SERVICES = [
   { href: "/commercial", label: "Commercial" },
 ] as const;
 
+export const TRUST_STATS = {
+  googleRating: 4.9,
+  installCount: 100,
+} as const;
+
 export const NAV_LINKS = [
   { href: "/colors", label: "Colors" },
   { href: "/gallery", label: "Gallery" },

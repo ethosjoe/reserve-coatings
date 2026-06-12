@@ -9,7 +9,6 @@ import { Marquee } from "@/components/ui/marquee";
 import { colors } from "@/data/colors";
 import { finishTierCards } from "@/data/finishTiers";
 import { FINISH_TIERS } from "@/lib/pricing";
-import { CountUp } from "@/components/ui/count-up";
 import { cn } from "@/lib/utils";
 
 export function ColorPreviewSection() {
@@ -26,9 +25,6 @@ export function ColorPreviewSection() {
             subtitle="Standard flake and premium designer blends — on-site sampling with every consultation."
             size="lg"
           />
-          <p className="mt-4 font-display text-display-sm text-champagne">
-            <CountUp value={colors.length} /> finishes
-          </p>
         </RevealItem>
 
         {/* Swatch grid */}

@@ -56,7 +56,7 @@ export function ServicePageTemplate({
       <ServiceAreaStrip />
       <ServiceFooterCta
         headline={`Ready to transform your space?`}
-        description={`Reserve ${title.toLowerCase()} are engineered for Michigan weather—moisture-tested prep, W-2 crews, and a transferable lifetime warranty. Book a consultation or get your estimate in under a minute.`}
+        description={`Reserve ${title.toLowerCase()} are engineered for Michigan weather—moisture-tested prep, in-house installation crews, and a transferable lifetime warranty.`}
       />
     </>
   );

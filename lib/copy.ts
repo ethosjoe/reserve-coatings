@@ -42,7 +42,7 @@ export const HOME_COPY = {
     eyebrow: "Metro Detroit epoxy floors",
     badge: "Garage installs from",
     headline: "Floors that look custom. Installed in a day. Guaranteed for life.",
-    sub: "Metallic, flake, and designer epoxy for garages and basements — moisture-tested prep, W-2 crews, transferable lifetime warranty.",
+    sub: "Metallic, flake, and designer epoxy for garages and basements — moisture-tested prep, in-house installation crews, transferable lifetime warranty.",
     ctaPrimary: CTAS.quoteHero,
     ctaSecondary: CTAS.bookConsult,
   },
@@ -78,7 +78,7 @@ export const PAGE_INTROS: Record<string, { eyebrow?: string; subtitle: string }>
   process: {
     eyebrow: "Our process",
     subtitle:
-      "A documented six-stage protocol — moisture-tested prep, polyurea build, polyaspartic cure — executed by W-2 Reserve crews.",
+      "A documented six-stage protocol — moisture-tested prep, polyurea build, polyaspartic cure — executed by in-house Reserve crews.",
   },
   financing: {
     eyebrow: "Financing",

@@ -6,8 +6,8 @@ import { motion, AnimatePresence, PanInfo } from "framer-motion";
 import { SectionHeading } from "@/components/ui/section-heading";
 import { RevealSection, RevealItem } from "@/components/ui/reveal-wrapper";
 import { Card } from "@/components/ui/card";
-import { CountUp } from "@/components/ui/count-up";
 import { featuredReview, reviews } from "@/data/reviews";
+import { TRUST_STATS } from "@/lib/brand";
 import { useMotionLite } from "@/hooks/useMediaQuery";
 import { usePrefersReducedMotion } from "@/hooks/usePrefersReducedMotion";
 import { cn } from "@/lib/utils";
@@ -74,12 +74,7 @@ export function ReviewsSection() {
         <RevealItem index={0}>
           <SectionHeading
             eyebrow="What clients say"
-            title={
-              <>
-                <CountUp value={4.9} decimals={1} suffix=" stars" /> across{" "}
-                <CountUp value={100} suffix="+" /> Metro Detroit installs.
-              </>
-            }
+            title={`${TRUST_STATS.googleRating} stars across ${TRUST_STATS.installCount}+ Metro Detroit installs.`}
             size="lg"
           />
         </RevealItem>

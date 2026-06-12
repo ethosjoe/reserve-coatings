@@ -111,7 +111,7 @@ export function ProcessStagesSection() {
             What happens on your slab — in order.
           </h2>
           <p className="mt-4 max-w-xl text-graphite">
-            Each stage is documented, timed, and executed by the same W-2 crew that scoped your job.
+            Each stage is documented, timed, and executed by the same in-house crew that scoped your job.
           </p>
         </RevealItem>
 

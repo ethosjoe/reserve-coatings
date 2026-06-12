@@ -50,7 +50,7 @@ export function PreferredDateTimePicker({
           min={minPreferredDate(allowToday)}
           value={preferredDate}
           onChange={(e) => onDateChange(e.target.value)}
-          className="form-input"
+          className="form-input form-date"
         />
       </FormField>
       <FormField
@@ -59,7 +59,7 @@ export function PreferredDateTimePicker({
         error={timeError}
       >
         <Select value={preferredTime || undefined} onValueChange={onTimeChange}>
-          <SelectTrigger id={`${idPrefix}-time`} className="form-input mt-0">
+          <SelectTrigger id={`${idPrefix}-time`} className="form-input mt-0 font-semibold">
             <SelectValue placeholder="Select a time" />
           </SelectTrigger>
           <SelectContent>

@@ -66,7 +66,7 @@ export default function HomePage() {
       <ServiceFooterCta
         eyebrow="Metro Detroit's preferred epoxy services"
         headline="The floor your home deserves."
-        description="One-day installation, lifetime warranty, and finishes specified for Michigan weather—from Birmingham showrooms to Northville basements. Speak with our team or get your estimate in under a minute."
+        description="One-day installation, lifetime warranty, and finishes specified for Michigan weather. Speak with our team or get your estimate in under a minute."
       />
     </>
   );
